@@ -1,0 +1,177 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.helloworld{
+    position:absolute;
+    left:310px;
+    top:100px;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    z-index: 2;
+    font-weight: bolder;
+    color:white;
+}
+.helloworld>pre{
+    position:absolute;
+    left:0px;
+    top:100px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    z-index: 2;
+    font-weight: bolder;
+    color:rgb(33, 33, 33);
+}
+.max{
+    max-height: 100vh;
+    z-index: 1;
+}
+.image{
+    filter:blur(12px);
+    height:740px ;
+    width:1550px;
+}
+.fieldset{
+    border:1px solid white;
+    background-color:white;
+    height:556px;
+    border-radius: 0px 12px 12px 0;
+}
+.image-border>img{
+    border-radius:12px 0 0 12px; 
+}
+.flex{
+    display:flex;
+    justify-content: center;
+    
+}
+.flex{
+    position: absolute;
+    top:67px;
+    left:250px;
+}
+.flex-form{
+    display: flex;
+    gap:16px;
+    justify-content: flex-start;
+}
+input{
+    font-size: 17px;;
+    width:480px;
+    height:25px;
+    outline: none;
+    border:none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+}
+.flex-form>div{
+    padding: 20px;
+}
+.loginbtn{
+    width:480px;
+    height:30px;
+    background-color: crimson;
+    border:none;
+    border-radius: 5px;
+    color:white;
+    font-size:13px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.btn{
+    display:flex;
+    justify-content: center;
+    gap:40px;
+}
+.btn>div>button{
+   font-size: 15px;
+   padding: 5px;
+   border:1px solid black;
+   border-radius:15px;
+   width:100px;
+
+}
+.fb{
+    background-color: rgb(46, 78, 222);
+    color:white;
+}
+.twitter{
+    background-color:rgb(21, 172, 231);
+    color:white;
+}
+.google{
+    background-color: rgb(239, 81, 23);
+    color:white;
+}
+h4{
+    text-align: center;
+    font-weight: lighter;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+@media screen and (max-width:480px){
+    .image{
+        filter:blur(12px);
+        height:380vh;
+        
+    }
+    .fieldset{
+        border:1px solid white;
+        background-color:white;
+        height:955px;
+        border-radius: 0px 12px 12px 0;
+    }
+    .image-border>img{
+        border-radius:12px 0 0 12px; 
+        height:1040px;
+    }
+    
+    .flex{
+        position: absolute;
+        top:800px;
+        left:230px;
+    }
+    .helloworld{
+        position:absolute;
+        left:270px;
+        top:900px;
+        font-size: 50px;
+        font-family: 'Times New Roman', Times, serif;
+        z-index: 2;
+        font-weight: bolder;
+        color:white;
+    }
+    .flex-form>div{
+        padding: 40px;
+    }
+    .loginbtn{
+        width:480px;
+        height:30px;
+        background-color: crimson;
+        border:none;
+        border-radius: 5px;
+        color:white;
+        font-size:13px;
+        font-weight: bolder;
+        cursor: pointer;
+        margin-top: 30px;;
+    }
+    input{
+        font-size: 17px;;
+        width:480px;
+        height:35px;
+        outline: none;
+        border:none;
+        border-bottom: 2px solid black;
+        background-color: transparent;
+    }
+    .btn{
+        display:flex;
+        justify-content: center;
+        
+        gap:60px;
+    }
+    
+}
